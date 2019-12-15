@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/wordpress"
+        android:contentDescription="@string/See" />
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:background="@drawable/b1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+        <TextView
+            android:id="@+id/TEXT_STATUS_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:keepScreenOn="true"
+            android:padding="15dp"
+            android:text="@string/wordpress"
+            android:textAppearance="@style/TextAppearance.AppCompat" >
+        </TextView>
+    </ScrollView>
+</LinearLayout>

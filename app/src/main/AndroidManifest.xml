@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tech.hami.cardview">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".youtube" />
+        <activity android:name=".blog" />
+        <activity android:name=".afilliate" />
+        <activity android:name=".niche" />
+        <activity android:name=".kindle" />
+        <activity android:name=".membership" />
+        <activity android:name=".flippa" />
+        <activity android:name=".udemy" />
+        <activity android:name=".Fiverr" />
+        <activity android:name=".eBay" />
+        <activity android:name=".wordpress" />
+        <activity android:name=".copywriting" />
+        <activity android:name=".emailmarketing" />
+        <activity android:name=".leapforce" />
+        <activity android:name=".fbmarketing" />
+        <activity android:name=".teespring" />
+        <activity android:name=".amazon" />
+        <activity android:name=".mobileapp" />
+        <activity android:name=".etsy" />
+        <activity android:name=".cpa" />
+        <activity android:name=".chatbot" />
+        <activity android:name=".videoediting" />
+        <activity android:name=".viralwebsite" />
+        <activity android:name=".ratemusic" />
+        <activity android:name=".dropshipping" />
+        <activity android:name=".mysteryshopper" />
+        <activity android:name=".socialmediaevaluator" />
+        <activity android:name=".qasites" />
+        <activity android:name=".microjob" />
+        <activity android:name=".usabilitytesting" />
+        <activity android:name=".photography" />
+        <activity android:name=".domain" />
+        <activity android:name=".help" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2741866017910510~2098723578"/>
+
+    </application>
+
+</manifest>
